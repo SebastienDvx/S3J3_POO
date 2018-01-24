@@ -1,5 +1,5 @@
 class Monkey
-  
+
   attr_reader :name, :species
   attr_accessor :foods_eaten
 
@@ -34,3 +34,8 @@ georges.introduce
 georges.eat("grappes")
 
 p georges.foods_eaten
+
+georges.introduce
+
+
+# p @foods_eaten.to_s
